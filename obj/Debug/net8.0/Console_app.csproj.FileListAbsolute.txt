@@ -1,0 +1,14 @@
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.AssemblyInfoInputs.cache
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.AssemblyInfo.cs
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.csproj.CoreCompileInputs.cache
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\bin\Debug\net8.0\Console_app.exe
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\bin\Debug\net8.0\Console_app.deps.json
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\bin\Debug\net8.0\Console_app.runtimeconfig.json
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\bin\Debug\net8.0\Console_app.dll
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\bin\Debug\net8.0\Console_app.pdb
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.dll
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\refint\Console_app.dll
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.pdb
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.genruntimeconfig.cache
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\ref\Console_app.dll
