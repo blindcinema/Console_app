@@ -18,29 +18,29 @@ namespace Console_app
 
         }
         public void AddCountry() {
-            Console.WriteLine("Do you want to add a country? Y/N");
 
-
-            if (Console.ReadLine() == "Y")
-            {
                 Console.WriteLine("Type in your country:");
                 countries.Add(Console.ReadLine());
                 GetCountry();
-            }
-            else if (Console.ReadLine() == "N")
-            {
 
-                return;
-            }
+
         }
         public void RemoveCountry()
         {
             GetCountry();
             Console.WriteLine("Remove a country using the number");
             int number;
-            int.TryParse(Console.ReadLine(), out number);
-            countries.RemoveAt(number - 1);
-            GetCountry();
+            bool ifTrue = int.TryParse(Console.ReadLine(), out number);
+            if (ifTrue & number < countries.Count + 1 & number != 0) {
+                countries.RemoveAt(number - 1);
+                GetCountry();
+            }
+            else
+            {
+                Console.WriteLine("Enter a valid number");
+                return;
+            }
+            
         }
     }
 }

@@ -28,12 +28,42 @@ namespace Console_app
             piggy.AnimalSound();
             dogg.AnimalSound();
             dogg.Sleep();
-            City osijek = new City();
-            Console.WriteLine($"you wrote: {osijek.SetCity()}");
+            City cityInput = new City();
+            Console.WriteLine($"you wrote: {cityInput.SetCity()}");
             Lists ListOfCountries = new Lists();
             ListOfCountries.GetCountry();
-            ListOfCountries.AddCountry();
-            ListOfCountries.RemoveCountry();
+
+            bool looping = true;
+            while (looping)
+            {
+                Console.WriteLine("Do you want to (1) add a country, (2) remove a country, (3) list the countries or (4) exit?");
+                switch (Console.ReadLine())
+                {
+                    case "1":
+
+                        ListOfCountries.AddCountry();
+                        break;
+                    case "2":
+
+                        ListOfCountries.RemoveCountry();
+                        break;
+                    case "3":
+                        
+                        ListOfCountries.GetCountry();
+                        break;
+                    case "4":                        
+                        looping = false;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid input.");
+                        break;
+
+                }
+
+            }
+            
+            
+            
 
         }
 
