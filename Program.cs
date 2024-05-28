@@ -32,6 +32,8 @@ namespace Console_app
             Console.WriteLine($"you wrote: {osijek.SetCity()}");
             Lists ListOfCountries = new Lists();
             ListOfCountries.GetCountry();
+            ListOfCountries.AddCountry();
+            ListOfCountries.RemoveCountry();
 
         }
 

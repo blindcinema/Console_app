@@ -12,3 +12,4 @@ C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\refint\Console_
 C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.pdb
 C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.genruntimeconfig.cache
 C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\ref\Console_app.dll
+C:\Users\JanHP\Desktop\Jan\Bootcamp\Console_app\obj\Debug\net8.0\Console_app.sourcelink.json
