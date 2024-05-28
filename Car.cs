@@ -25,17 +25,17 @@ namespace Console_app
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Year: " + year);
         }
-        public Car(string color , string name, string year) {
+        public Car(string color, string name, string year) {
 
             // bad approach due to lack of time, fix later
             int result;
             int.TryParse(today, out carAge);
             int.TryParse(year, out result);
-            carAge = carAge - result ;
-            Console.WriteLine("Color: "+ color);
-            Console.WriteLine("Name: "+ name);
+            carAge = carAge - result;
+            Console.WriteLine("Color: " + color);
+            Console.WriteLine("Name: " + name);
             Console.WriteLine("Year: " + year);
-            Console.WriteLine(carAge);
+            Console.WriteLine($"the car is {carAge} years old");
 
         }
 

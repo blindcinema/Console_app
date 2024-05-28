@@ -11,11 +11,13 @@ namespace Console_app
     {
         public List<string> countries = new List<string> { "Croatia", "Germany", "France", "Italy" };
         public void GetCountry() {
-            foreach (string country in countries)
+            for (int i = 0; i < countries.Count(); i++)
             {
-                Console.WriteLine($"{country}  {countries.IndexOf(country) + 1}");
+                // BUG: repeated values return the first index
+                Console.WriteLine($"{countries.IndexOf(countries[i]) + 1} {countries[i]}  ");
+                
             }
-
+            Console.WriteLine(countries.Count());
         }
         public void AddCountry() {
 
